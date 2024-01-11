@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "asp.gRPC.Server", "asp.gRPC.Server\asp.gRPC.Server.csproj", "{7D6D6932-AC60-4981-874F-C2A6665A7765}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "asp.gRPC.Server", "asp.gRPC.Server\asp.gRPC.Server.csproj", "{7D6D6932-AC60-4981-874F-C2A6665A7765}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "asp.gRPC.Client", "asp.gRPC.Client\asp.gRPC.Client.csproj", "{95857D40-C761-4779-A2F4-D01685E91FA3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{7D6D6932-AC60-4981-874F-C2A6665A7765}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D6D6932-AC60-4981-874F-C2A6665A7765}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D6D6932-AC60-4981-874F-C2A6665A7765}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95857D40-C761-4779-A2F4-D01685E91FA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95857D40-C761-4779-A2F4-D01685E91FA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95857D40-C761-4779-A2F4-D01685E91FA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95857D40-C761-4779-A2F4-D01685E91FA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
